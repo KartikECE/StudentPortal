@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   
+    <h2 class="bg-black">Student Portal</h2>
+    <div class="container flow-space">
+      <form class="flex" action="#">
+        <input type="text" id="inputfield" placeholder="Search" />
+        <button type="submit">Search</button>
+      </form>
+      <div class="flex sort-container">
+        <button id="ascendingorder">Sort A->Z</button>
+        <button id="descendingorder">Sort Z->A</button>
+        <button id="sortingmarks">Sort By Marks</button>
+        <button id="sortingpassing">Sort By Passing</button>
+        <button id="sortingclass">Sort By Class</button>
+        <button id="sortinggender">Sort By Gender</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Class</th>
+            <th>Marks</th>
+            <th>Passing</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </body>
+  <script src="script.js" type="module"></script>
+</html>
